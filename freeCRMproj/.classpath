@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/htmlunit-driver-2.49.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/cucumber-testng-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/jar_files/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/cucumber-html-0.2.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/cucumber-reporting-0.1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ujalali/Documents/SeleniumSoftware/Cucumber jars/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
