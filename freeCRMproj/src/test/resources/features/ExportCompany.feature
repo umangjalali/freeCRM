@@ -10,13 +10,13 @@ And user click on login button
 
 @exportCompany
 Scenario: Export Company with all valid fields
-When user click on company module
+When user clicks on company module
 And user clicks on particular company to be exported
 Then user is able to export the company details
 
 
 
-@exportCompany
+@exportCompany1
 Scenario: Export Company with all invalid fields
 When user click on company module
 And user clicks on particular company to be exported

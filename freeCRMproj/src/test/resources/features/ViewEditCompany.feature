@@ -10,7 +10,5 @@ And user click on login button
 
 @vieweditCompany
 Scenario: view or edit Company with all valid fields
-When user click on company module
-And user clicks on particular company to be edited
-Then user clicks on edit button
-And user is able to edit the company
+When user clicks on a company module
+Then user clicks on edit button and is able to edit 

@@ -12,7 +12,7 @@ And user click on login button
 Scenario: Create Company with all valid fields
 When user click on company module
 And user clicks on create company
-Then user enters the valid name 
+Then user enters the valid name
 And user access the public button
 Then user enters the url of the company website
 And user enter the address of the company
@@ -30,12 +30,13 @@ Then user selects the source of the company
 And user selects the category of the company
 Then user enters the VAT number of the company
 And user enters the identifier of the company
-Then user is able to upload the image
+#Then user is able to upload the image
+And user is able to create a company
 
 
 
 
-@createCompany
+@createCompany1
 Scenario: Create Company with all Invalid fields
 When user click on company module
 And user clicks on create company

@@ -10,8 +10,7 @@ And user click on login button
 
 @filterCompany
 Scenario: filter Company with all valid fields
-When user click on company module
-And user lands on companies page
-Then user clicks on showfilter button
-And user search the company with the filter criteria
-Then user is able to view the company
+When user clicks on the company module
+Then user clicks on showfilter button and is able to filter the company
+#And user search the company with the filter criteria
+#Then user is able to view the company

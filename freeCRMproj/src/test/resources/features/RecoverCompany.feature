@@ -10,8 +10,8 @@ And user click on login button
 
 @recoverCompany
 Scenario: Recover Company with all valid fields
-When user click on company module
-And user clicks on delete button
-Then user clicks on the company module button
-And user selects the particular company to be recovered
-Then user clicks on the restore button 
+When user click on a company module
+Then user clicks on trash button and recovers the company record
+#Then user clicks on the company module button
+#And user selects the particular company to be recovered
+#Then user clicks on the restore button

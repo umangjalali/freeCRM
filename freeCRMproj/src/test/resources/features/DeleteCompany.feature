@@ -10,6 +10,6 @@ And user click on login button
 
 @deleteCompany
 Scenario: Delete Company with all valid fields
-When user click on company module
-And user clicks on particular company to be deleted
-Then user is able to delete the company
+When user click on the company module
+Then user clicks on the bin button and is able to delete the company
+
