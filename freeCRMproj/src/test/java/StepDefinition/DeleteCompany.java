@@ -24,7 +24,7 @@ public class DeleteCompany
 	public void user_click_on_the_company_module() throws Throwable
 	{
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
-	   // Thread.sleep(2000);
+	   Thread.sleep(2000);
 		//LoginApp.driver.findElement(By.xpath("//span[contains(text(),'Companies')]")).click();
 		companyData.companyToSelect();
 	}
@@ -35,7 +35,9 @@ public class DeleteCompany
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
 		
 		//LoginApp.driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/div[1]/button[1]/i[1]")).click();
-		  DeleteCompany.delcom();
+		LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
+		Thread.sleep(4000);
+		DeleteCompany.delcom();
 	}
 
 	

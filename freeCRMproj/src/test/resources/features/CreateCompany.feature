@@ -3,8 +3,8 @@ Feature: CreateCompany
 
 Background: 
 Given User logins to the application
-Then User enter the email as "jalaliumang01@gmail.com"
-Then user enter the password  as "madsumang"
+Then User enter the email 
+Then user enter the password
 And user click on login button
 
 
@@ -37,16 +37,56 @@ And user is able to create a company
 
 
 @createCompany1
-Scenario: Create Company with all Invalid fields
+Scenario Outline: Create Company with all Invalid fields name
 When user click on company module
 And user clicks on create company
-Then user enters the invalid name as "Omkarenterpriseslimitededitiontextileqwertyuioplkjhgfdsazxcvbnm"
-Then user enters the invalid name as "Amazon@1234456_098765"
-And user enter the invalid address of the company where zip as "20100"
-And user enter the invalid address of the company where zip as "2010050"
-Then user enters the invalid phone number of the company as "9234523451098181"
-And user enters the invalid number of employees as "qwertyuiop"
-And user enters the invalid number of employees as "-100"
+Then user enters the invalid <name>
+Examples:
+
+|name|
+|Omkarenterpriseslimitededitiontextileqwertyuioplkjhgfdsazxcvbnm|
+|Amazon@1234456_098765|
+#Then user enters the invalid name as "Omkarenterpriseslimitededitiontextileqwertyuioplkjhgfdsazxcvbnm"
+#Then user enters a invalid name as "Amazon@1234456_098765"
+
+@createCompany2
+Scenario Outline: Create Company with all Invalid fields zip
+When user click on company module
+And user clicks on create company
+Then user enter the invalid address of the company where <zip>
+Examples:
+
+|zip|
+|20100|
+|2010050|
+#And user enter the invalid address of the company where zip as "20100"
+#And user enter the invalid address of the company where zip as "2010050"
+
+@createCompany3
+Scenario Outline: Create Company with all Invalid fields phone
+When user click on company module
+And user clicks on create company
+Then user enter the invalid <phonenumber>
+Examples:
+
+|phonenumber|
+|987654|
+|9234523451098181|
+#Then user enters the invalid phone number of the company as "987654"
+#Then user enters the invalid phone number of the company as "9234523451098181"
+
+@createCompany4
+Scenario Outline: Create Company with all Invalid fields employee
+When user click on company module
+And user clicks on create company
+Then enters the invalid number <employees>
+Examples:
+
+|employees|
+|qazswxedcf|
+|-100|
+#And user enters the invalid number of employees as "qwertyuiop"
+#And user enters the invalid number of employees as "-100"
 
 
 

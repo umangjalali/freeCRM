@@ -21,7 +21,7 @@ public class RecoverCompany
 	public void user_click_on_a_company_module() throws Throwable
 	{
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
-	    //Thread.sleep(2000);
+	    Thread.sleep(2000);
 		//LoginApp.driver.findElement(By.xpath("//span[contains(text(),'Companies')]")).click();
 		companyData.companyToSelect();
 	}
@@ -31,7 +31,10 @@ public class RecoverCompany
 	{
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
 		//LoginApp.driver.findElement(By.xpath("//i[@class='trash alternate outline icon']")).click();
+		LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
+		Thread.sleep(3000);
 		  RecoverCompany.reccom();
+		Thread.sleep(4000);
 	}
 
 //	@Then("^user clicks on the company module button$")

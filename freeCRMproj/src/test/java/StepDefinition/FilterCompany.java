@@ -21,7 +21,7 @@ public class FilterCompany
 	public void user_clicks_on_the_company_module() throws Throwable
 	{
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
-	   // Thread.sleep(2000);
+	   Thread.sleep(2000);
 		//LoginApp.driver.findElement(By.xpath("//span[contains(text(),'Companies')]")).click();
 		companyData.companyToSelect();
 	}
@@ -31,6 +31,8 @@ public class FilterCompany
 	{
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
 		//LoginApp.driver.findElement(By.xpath("//button[normalize-space()='Show Filters']")).click();
+		LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
+		Thread.sleep(3000);
 		FilterCompany.filcom("omkar");
 	}
 

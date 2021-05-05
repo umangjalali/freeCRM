@@ -21,7 +21,7 @@ public class ViewEditCompany
 	public void user_clicks_on_a_company_module() throws Throwable
 	{
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
-	    //Thread.sleep(2000);
+	    Thread.sleep(2000);
 		//LoginApp.driver.findElement(By.xpath("//span[contains(text(),'Companies')]")).click();
 		companyData.companyToSelect();
 		
@@ -33,7 +33,7 @@ public class ViewEditCompany
 	{
 		//LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
 		//LoginApp.driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/a[2]/button[1]/i[1]")).click();
-		
+		LoginApp.driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
 		ViewEditCompany.editcom("wer");
 	}
 

@@ -3,8 +3,8 @@ Feature: FilterCompany
 
 Background: 
 Given User logins to the application
-Then User enter the email as "jalaliumang01@gmail.com"
-Then user enter the password  as "madsumang"
+Then User enter the email
+Then user enter the password
 And user click on login button
 
 
