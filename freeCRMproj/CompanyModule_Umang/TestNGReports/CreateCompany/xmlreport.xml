@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="8" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="177.294136">
+<testcase classname="CreateCompany" name="Create Company with all valid fields" time="16.162724">
+<system-out><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then user enters the valid name.............................................passed
+And user access the public button...........................................passed
+Then user enters the url of the company website.............................passed
+And user enter the address of the company...................................passed
+Then user enters the phone number of the company............................passed
+And user enter the tags associated to it....................................passed
+Then user enters the description of the company.............................passed
+And user selects the social channels linked to the company..................passed
+Then user enters the industry associated with the company...................passed
+And user enters the number of employees in the company......................passed
+Then user enters the stock symbol of the company............................passed
+And user enters the annual revenue of the company...........................passed
+Then user selects the priority of the company...............................passed
+And user selects the status of the company..................................passed
+Then user selects the source of the company.................................passed
+And user selects the category of the company................................passed
+Then user enters the VAT number of the company..............................passed
+And user enters the identifier of the company...............................passed
+And user is able to create a company........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields name" time="20.842771">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.CreateCompany.user_enters_the_invalid(CreateCompany.java:224)&#13;&#10;&#9;at ✽.Then user enters the invalid Omkarenterpriseslimitededitiontextileqwertyuioplkjhgfdsazxcvbnm(src/test/resources/features/CreateCompany.feature:43)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then user enters the invalid Omkarenterpriseslimitededitiontextileqwertyuioplkjhgfdsazxcvbnm.failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.CreateCompany.user_enters_the_invalid(CreateCompany.java:224)
+	at ✽.Then user enters the invalid Omkarenterpriseslimitededitiontextileqwertyuioplkjhgfdsazxcvbnm(src/test/resources/features/CreateCompany.feature:43)
+]]></failure>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields name 2" time="19.648181">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.CreateCompany.user_enters_the_invalid(CreateCompany.java:224)&#13;&#10;&#9;at ✽.Then user enters the invalid Amazon@1234456_098765(src/test/resources/features/CreateCompany.feature:43)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then user enters the invalid Amazon@1234456_098765..........................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.CreateCompany.user_enters_the_invalid(CreateCompany.java:224)
+	at ✽.Then user enters the invalid Amazon@1234456_098765(src/test/resources/features/CreateCompany.feature:43)
+]]></failure>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields zip" time="18.994109">
+<failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null&#13;&#10;&#9;at StepDefinition.CreateCompany.user_write_the_invalid_address_of_the_company_where(CreateCompany.java:234)&#13;&#10;&#9;at ✽.Then user write the invalid address of the company where 20100(src/test/resources/features/CreateCompany.feature:56)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then user write the invalid address of the company where 20100..............failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at StepDefinition.CreateCompany.user_write_the_invalid_address_of_the_company_where(CreateCompany.java:234)
+	at ✽.Then user write the invalid address of the company where 20100(src/test/resources/features/CreateCompany.feature:56)
+]]></failure>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields zip 2" time="20.113669">
+<failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null&#13;&#10;&#9;at StepDefinition.CreateCompany.user_write_the_invalid_address_of_the_company_where(CreateCompany.java:234)&#13;&#10;&#9;at ✽.Then user write the invalid address of the company where 2010050(src/test/resources/features/CreateCompany.feature:56)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then user write the invalid address of the company where 2010050............failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at StepDefinition.CreateCompany.user_write_the_invalid_address_of_the_company_where(CreateCompany.java:234)
+	at ✽.Then user write the invalid address of the company where 2010050(src/test/resources/features/CreateCompany.feature:56)
+]]></failure>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields phone" time="21.288319">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.CreateCompany.user_enter_the_invalid(CreateCompany.java:245)&#13;&#10;&#9;at ✽.Then user enter the invalid 987654(src/test/resources/features/CreateCompany.feature:69)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then user enter the invalid 987654..........................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.CreateCompany.user_enter_the_invalid(CreateCompany.java:245)
+	at ✽.Then user enter the invalid 987654(src/test/resources/features/CreateCompany.feature:69)
+]]></failure>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields phone 2" time="20.650153">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.CreateCompany.user_enter_the_invalid(CreateCompany.java:245)&#13;&#10;&#9;at ✽.Then user enter the invalid 9234523451098181(src/test/resources/features/CreateCompany.feature:69)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then user enter the invalid 9234523451098181................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.CreateCompany.user_enter_the_invalid(CreateCompany.java:245)
+	at ✽.Then user enter the invalid 9234523451098181(src/test/resources/features/CreateCompany.feature:69)
+]]></failure>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields employee" time="20.390998">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.CreateCompany.enters_the_invalid_number(CreateCompany.java:255)&#13;&#10;&#9;at ✽.Then enters the invalid number qazswxedcf(src/test/resources/features/CreateCompany.feature:82)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then enters the invalid number qazswxedcf...................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.CreateCompany.enters_the_invalid_number(CreateCompany.java:255)
+	at ✽.Then enters the invalid number qazswxedcf(src/test/resources/features/CreateCompany.feature:82)
+]]></failure>
+</testcase>
+<testcase classname="CreateCompany" name="Create Company with all Invalid fields employee 2" time="19.203212">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.CreateCompany.enters_the_invalid_number(CreateCompany.java:255)&#13;&#10;&#9;at ✽.Then enters the invalid number -100(src/test/resources/features/CreateCompany.feature:82)&#13;&#10;"><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on company module...........................................passed
+And user clicks on create company...........................................passed
+Then enters the invalid number -100.........................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.CreateCompany.enters_the_invalid_number(CreateCompany.java:255)
+	at ✽.Then enters the invalid number -100(src/test/resources/features/CreateCompany.feature:82)
+]]></failure>
+</testcase>
+</testsuite>

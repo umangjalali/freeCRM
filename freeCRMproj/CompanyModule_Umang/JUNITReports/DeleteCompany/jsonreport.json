@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4269896100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logins to the application",
+            "match": {
+              "location": "LoginApp.user_logins_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120655100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the email",
+            "match": {
+              "location": "LoginApp.user_enter_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66708600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the password",
+            "match": {
+              "location": "LoginApp.user_enter_the_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1751715700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginApp.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2106830800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginApp.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Delete Company with all valid fields",
+        "description": "",
+        "id": "deletecompany;delete-company-with-all-valid-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2082516700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on the company module",
+            "match": {
+              "location": "DeleteCompany.user_click_on_the_company_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4210723700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the bin button and is able to delete the company",
+            "match": {
+              "location": "DeleteCompany.user_clicks_on_the_bin_button_and_is_able_to_delete_the_company()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@deleteCompany"
+          }
+        ]
+      }
+    ],
+    "name": "DeleteCompany",
+    "description": "",
+    "id": "deletecompany",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/DeleteCompany.feature"
+  }
+]

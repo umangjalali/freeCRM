@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2498539900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logins to the application",
+            "match": {
+              "location": "LoginApp.user_logins_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129428900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the email",
+            "match": {
+              "location": "LoginApp.user_enter_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73291700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the password",
+            "match": {
+              "location": "LoginApp.user_enter_the_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1121705100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginApp.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1946495300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginApp.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "view or edit Company with all valid fields",
+        "description": "",
+        "id": "deletecompany;view-or-edit-company-with-all-valid-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2109645600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on a company module",
+            "match": {
+              "location": "ViewEditCompany.user_clicks_on_a_company_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2548128400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on edit button and is able to edit",
+            "match": {
+              "location": "ViewEditCompany.user_clicks_on_edit_button_and_is_able_to_edit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@vieweditCompany"
+          }
+        ]
+      }
+    ],
+    "name": "DeleteCompany",
+    "description": "",
+    "id": "deletecompany",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ViewEditCompany.feature"
+  }
+]

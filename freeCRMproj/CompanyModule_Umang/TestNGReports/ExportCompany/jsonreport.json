@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2919011400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logins to the application",
+            "match": {
+              "location": "LoginApp.user_logins_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142256000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the email",
+            "match": {
+              "location": "LoginApp.user_enter_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75316900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the password",
+            "match": {
+              "location": "LoginApp.user_enter_the_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1804609700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginApp.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1830524400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginApp.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Export Company with all valid fields",
+        "description": "",
+        "id": "exportcompany;export-company-with-all-valid-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2083663600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on company module",
+            "match": {
+              "location": "ExportCompany.user_click_on_the_company_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5451444300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the export button and is able to export the company",
+            "match": {
+              "location": "ExportCompany.user_clicks_on_the_export_button_and_is_able_to_export_the_company()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@exportCompany"
+          }
+        ]
+      }
+    ],
+    "name": "ExportCompany",
+    "description": "",
+    "id": "exportcompany",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ExportCompany.feature"
+  }
+]

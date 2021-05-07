@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.665306">
+<testcase classname="RecoverCompany" name="Recover Company with all valid fields" time="17.665306">
+<system-out><![CDATA[Given User logins to the application........................................passed
+Then User enter the email...................................................passed
+Then user enter the password................................................passed
+And user click on login button..............................................passed
+When user click on a company module.........................................passed
+Then user clicks on trash button and recovers the company record............passed
+]]></system-out>
+</testcase>
+</testsuite>

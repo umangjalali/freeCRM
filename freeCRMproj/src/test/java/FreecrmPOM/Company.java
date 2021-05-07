@@ -51,10 +51,10 @@ public class Company
 		By save = By.xpath("//button[normalize-space()='Save']");
 
 		
-		By edit = By.xpath("//a[@href='/companies/edit/f11a6d18-caf3-4bc3-b0c2-286ba6076fbb']");
+		By edit = By.xpath("//tbody/tr[1]/td[4]/a[2]/button[1]/i[1]");
 		By editadd = By.xpath("//input[@placeholder='City']");
 		
-		By delete = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/div[1]/button[1]/i[1]");
+		By delete = By.xpath("//tbody/tr[1]/td[4]/div[1]/button[1]/i[1]");
 		By delete1 = By.xpath("//button[normalize-space()='Delete']");
 		
 		By recover = By.xpath("//i[@class='trash alternate outline icon']");

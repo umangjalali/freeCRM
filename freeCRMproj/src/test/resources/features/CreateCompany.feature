@@ -53,7 +53,7 @@ Examples:
 Scenario Outline: Create Company with all Invalid fields zip
 When user click on company module
 And user clicks on create company
-Then user enter the invalid address of the company where <zip>
+Then user write the invalid address of the company where <zip>
 Examples:
 
 |zip|

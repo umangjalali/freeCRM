@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 import FreecrmPOM.Company;
 import cucumber.api.java.en.Then;
@@ -16,7 +17,8 @@ public class RecoverCompany
 	Company RecoverCompany = new Company(driver);
 	 
 	  Company companyData= new Company(driver);
-	  
+	 
+	 @Test(priority = 1)
 	@When("^user click on a company module$")
 	public void user_click_on_a_company_module() throws Throwable
 	{
@@ -26,6 +28,7 @@ public class RecoverCompany
 		companyData.companyToSelect();
 	}
 	
+	  @Test(priority = 2)
 	@Then("^user clicks on trash button and recovers the company record$")
 	public void user_clicks_on_trash_button_and_recovers_the_company_record() throws Throwable
 	{

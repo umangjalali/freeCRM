@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 import FreecrmPOM.Company;
 
@@ -19,7 +20,8 @@ public class DeleteCompany
 	Company DeleteCompany = new Company(driver);
 	 
 	  Company companyData= new Company(driver);
-	  
+	 
+	  @Test(priority = 1)
 	@When("^user click on the company module$")
 	public void user_click_on_the_company_module() throws Throwable
 	{
@@ -28,7 +30,8 @@ public class DeleteCompany
 		//LoginApp.driver.findElement(By.xpath("//span[contains(text(),'Companies')]")).click();
 		companyData.companyToSelect();
 	}
-		
+	
+	  @Test(priority = 2)
 	@Then("^user clicks on the bin button and is able to delete the company$")
 	public void user_clicks_on_the_bin_button_and_is_able_to_delete_the_company() throws Throwable
 	{

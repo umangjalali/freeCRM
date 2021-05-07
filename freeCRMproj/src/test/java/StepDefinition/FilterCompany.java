@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 import FreecrmPOM.Company;
 import cucumber.api.java.en.Then;
@@ -16,7 +17,8 @@ public class FilterCompany
 		Company FilterCompany = new Company(driver);
 		 
 		  Company companyData= new Company(driver);
-		  
+		
+    @Test(priority = 1)	  
 	@When("^user clicks on the company module$")
 	public void user_clicks_on_the_company_module() throws Throwable
 	{
@@ -26,6 +28,7 @@ public class FilterCompany
 		companyData.companyToSelect();
 	}
 
+    @Test(priority = 2)
 	@Then("^user clicks on showfilter button and is able to filter the company$")
 	public void user_clicks_on_showfilter_button_and_is_able_to_filter_the_company() throws Throwable
 	{

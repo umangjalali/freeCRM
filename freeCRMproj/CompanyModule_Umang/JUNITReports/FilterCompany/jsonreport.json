@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3201474800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logins to the application",
+            "match": {
+              "location": "LoginApp.user_logins_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219425600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the email",
+            "match": {
+              "location": "LoginApp.user_enter_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63495600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the password",
+            "match": {
+              "location": "LoginApp.user_enter_the_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1749476600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginApp.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1997121800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginApp.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "filter Company with all valid fields",
+        "description": "",
+        "id": "filtercompany;filter-company-with-all-valid-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2087714900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on the company module",
+            "match": {
+              "location": "FilterCompany.user_clicks_on_the_company_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3559904300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on showfilter button and is able to filter the company",
+            "match": {
+              "location": "FilterCompany.user_clicks_on_showfilter_button_and_is_able_to_filter_the_company()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@filterCompany"
+          }
+        ]
+      }
+    ],
+    "name": "FilterCompany",
+    "description": "",
+    "id": "filtercompany",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/FilterCompany.feature"
+  }
+]
